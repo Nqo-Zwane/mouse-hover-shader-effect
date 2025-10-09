@@ -1,5 +1,5 @@
 {
-  "name": "elastic-grid-scroll",
+  "name": "infinite-zoom-loop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,9 +15,12 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.3.0",
     "gsap": "^3.13.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "three": "^0.180.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
@@ -25,6 +28,7 @@
     "@eslint/js": "^9.36.0",
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
+    "@types/three": "^0.180.0",
     "@typescript-eslint/eslint-plugin": "^8.44.1",
     "@typescript-eslint/parser": "^8.44.1",
     "@vitejs/plugin-react": "^5.0.3",
