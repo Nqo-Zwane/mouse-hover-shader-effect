@@ -1,12 +1,19 @@
-# React + Vite
+# Infinite Zoom Loop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An infinite zoom loop effect implementation using React, Three.js, and TSL (Three.js Shading Language).
 
-Currently, two official plugins are available:
+This project follows [Yuri Artuikh's YouTube tutorial](https://www.youtube.com/channel/UCDo7RTzizoOdPjY8A-xDR7g) on creating infinite zoom effects. While the original tutorial uses vanilla Three.js and TSL, this implementation adapts the concepts for use with React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React + Vite
+- Three.js
+- TSL (Three.js Shading Language)
+- TypeScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Development
+
+```bash
+npm install
+npm run dev
+```
