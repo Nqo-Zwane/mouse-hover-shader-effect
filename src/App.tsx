@@ -6,7 +6,7 @@ function App(): JSX.Element {
     <Canvas>
       <OrbitControls />
       <mesh>
-        <boxGeometry args={[1, 1, 1]} />
+        <planeGeometry args={[2, 2]} />
         <meshStandardMaterial color="orange" />
       </mesh>
       <ambientLight intensity={0.5} />
