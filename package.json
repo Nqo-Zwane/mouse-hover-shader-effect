@@ -1,48 +1,26 @@
 {
-  "name": "infinite-zoom-loop",
+  "name": "mouse-hover-shader-effect",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "lint:fix": "eslint . --ext ts,tsx --fix",
-    "format": "prettier --write \"src/**/*.{ts,tsx,css,md}\"",
-    "format:check": "prettier --check \"src/**/*.{ts,tsx,css,md}\"",
-    "type-check": "tsc --noEmit",
-    "preview": "vite preview",
-    "prepare": "husky"
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@react-three/drei": "^10.7.6",
-    "@react-three/fiber": "^9.3.0",
-    "gsap": "^3.13.0",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "three": "^0.180.0"
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.15.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.158.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
-    "@eslint/js": "^9.36.0",
-    "@types/react": "^19.1.13",
-    "@types/react-dom": "^19.1.9",
-    "@types/three": "^0.180.0",
-    "@typescript-eslint/eslint-plugin": "^8.44.1",
-    "@typescript-eslint/parser": "^8.44.1",
-    "@vitejs/plugin-react": "^5.0.3",
-    "eslint": "^9.36.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-prettier": "^5.5.4",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.20",
-    "globals": "^16.4.0",
-    "husky": "^9.1.7",
-    "prettier": "^3.6.2",
-    "typescript": "^5.9.2",
-    "vite": "^7.1.7"
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/three": "^0.158.0",
+    "@vitejs/plugin-react": "^4.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
   }
 }
